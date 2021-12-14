@@ -33,6 +33,7 @@ O projeto foi desenvolvido a partir da necessidade do CFO da empresa em destinar
 | Promo2                           | Promo2 é uma promoção contínua e consecutiva para algumas lojas: 0 = a loja não está participando, 1 = a loja está participando |
 | Promo2Since[Year/Week]           | Descreve o ano e a semana em que a loja começou a participar da Promo2 |
 | PromoInterval                    | Descreve os intervalos consecutivos de início da promoção 2, nomeando os meses em que a promoção é iniciada novamente. Por exemplo. "Fev, maio, agosto, novembro" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para aquela loja |
+
 <br><br>
 
 ## 2.0. Estratégia de solução
