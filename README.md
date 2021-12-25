@@ -1,4 +1,4 @@
-# 
+# Rossmann
 <b>AVISO:</b> Todos os problemas e premissas contextualizados no projeto são fictícios. Seu único objetivo é dar sentido para o desenvolvimento da solução.<br><br>
 # Previsão de vendas das drogarias Rossmann
 Este é um projeto de previsão de vendas, onde foi utilizado ferramentas de Machine Learning para resolução do problema. 
