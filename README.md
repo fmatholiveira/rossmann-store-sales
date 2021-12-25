@@ -3,7 +3,13 @@
 # Previsão de vendas das drogarias Rossmann
 Este é um projeto de previsão de vendas, onde foi utilizado ferramentas de Machine Learning para resolução do problema. 
 <br><br>
-## 1.0. Sobre a Rossmann
+
+<p align='center'>
+    <img src = 'img/rossmann.png'>
+</p>
+<br>
+
+## 1. Sobre a Rossmann
 A Rossmann é uma das maiores redes de drogaria da Europa, com cerca de 56.200 funcionários e mais de 4.000 lojas em diversos países, como Alemanha, Polônia, Hungria, República Tcheca, Turquia, Albânia, Kosovo e Espanha. É uma empresa com um grande sortimento de produtos que são oferecidos as seus clientes, incluindo produtos próprios. A companhia está em grande expansão e num ritmo elevado, com grandes investimentos.
 <br><br>
 ### 1.1. Problema de negócio
@@ -36,7 +42,7 @@ O projeto foi desenvolvido a partir da necessidade do CFO da empresa em destinar
 
 <br><br>
 
-## 2.0. Estratégia de solução
+## 2. Estratégia de solução
 O projeto foi desenvolvido através do método CRISP-DM, aplicando os seguintes passos:
 
 **Passo 01 - Descrição dos Dados:** Nessa etapa, o objetivo foi conhecer os dados, seus tipos, usar métricas estatísticas para identificar outliers no escopo do negócio e também analisar métricas estatísticas básicas como: média, mediana, máximo, mínimo, range, skew, kurtosis e desvio padrão. Nessa etapa também foram feitos alguns ajustes em features do dataset, como preenchimento de NA's por exemplo.
@@ -60,24 +66,72 @@ O projeto foi desenvolvido através do método CRISP-DM, aplicando os seguintes 
 **Passo 10 - Deploy do Modelo em Produção:** Após execução bem sucedida do modelo, o objetivo foi publica-lo em um ambiente de nuvem para que outras pessoas ou serviços possam usar os resultados para melhorar a decisão de negócios. A plataforma de aplicativo em nuvem escolhida foi o Heroku.
 <br><br>
 
-## 3.0. Top insights
+## 3. Top insights
+H1. Lojas com maior sortimento deveriam vender mais.
+**FALSA** - Lojas com maior **SORTIMENTO** vendem **MENOS**
+<br><br>
+![image](img/H1.png)
+
+<br><br>
+H2. Lojas com competidores mais proximos deveriam vender menos.
+**FALSA** - Lojas com competidores **MAIS PRÓXIMOS** vendem **MAIS**
+<br><br>
+![image](img/H2.png)
+
+<br><br>
+H8. Lojas deveriam vender mais ao longo dos anos.
+**FALSA** Lojas vendem **MENOS** ao longo dos anos.
+<br><br>
+![image](img/H8.png)
 <br><br>
 
-## 4.0. Modelos utilizados
+## 4. Modelos utilizados
+- Média;
+- Regressão Linear;
+- Regressão Linear com Regularização (Lasso);
+- Random Forest Regressor;
+- XGBoost Regressor.
 <br><br>
 
-## 5.0. Performance dos modelos
+## 5. Performance
+
+### 5.1. Performance única dos modelos
+<br>
+<p align='center'>
+    <img src = 'img/performance_ml.png'>
+</p>
 <br><br>
 
-### 5.1. Performance única
+### 5.2. Performance real dos modelos - Cross Validation
+<br>
+<p align='center'>
+    <img src = 'img/performance_ml_cross_validation.png'>
+</p>
 <br><br>
 
-### 5.2. Performance real - Cross Validation
+### 5.3. Performance de negócio
+<br>
+<p align='center'>
+    <img src = 'img/performance_business.png'>
+</p>
 <br><br>
 
-## 6.0. Conclusão
+## 6. Conclusão
+Considerando o primeiro ciclo do CRISP-DS, o modelo final apresentou um desempenho aceitável, com um MAPE (Erro Médio Percentual Absoluto) de 10,3%. Sendo assim, podendo colocá-lo em produção.
+
+
+Porém, para algumas lojas, foram observados valores de MAPE maiores, como 55,9% e 51,4%, mas este é um ponto que poderá ser melhorado no próximo ciclo de CRISP.
 <br><br>
-### 6.1. Sugestões de decisão para o negócio
+
+## 7. Lições aprendidas
+- Nem sempre o melhor modelo é o que apresenta um menor erro;
+- O modelo de média pode representar um fenômeno melhor que um algoritmo de machine learning;
+- Uma boa EDA e um Cross Validation correto são de extrema importância para a solução do problema.
 <br><br>
-### 6.2. Próximos passos
+
+## 8. Próximos passos
+- Criar novas hipóteses de negócio;
+- Aprofundar mais na análise exploratória de dados de acordo com as hipóteses;
+- Trabalhar pontualmente nas lojas que tiveram um outlier em suas previsões nesse primeiro ciclo;
+- Estudar a viabilidade da implementação de um modelo de predição de customer. Para o estudo irei utilizar o esforço x impacto da previsão da feature.
 <br><br>
