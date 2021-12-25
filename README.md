@@ -109,9 +109,6 @@ O projeto foi desenvolvido através do método CRISP-DM, aplicando os seguintes 
 
 ## 6. Conclusão
 Considerando o primeiro ciclo do CRISP-DS, o modelo final apresentou um desempenho aceitável, com um MAPE (Erro Médio Percentual Absoluto) de 10,3%. Sendo assim, podendo colocá-lo em produção.
-
-
-Porém, para algumas lojas, foram observados valores de MAPE maiores, como 55,9% e 51,4%, mas este é um ponto que poderá ser melhorado no próximo ciclo de CRISP.
 <br><br>
 
 ## 7. Lições aprendidas
