@@ -96,24 +96,15 @@ O projeto foi desenvolvido através do método CRISP-DM, aplicando os seguintes 
 ## 5. Performance
 
 ### 5.1. Performance única dos modelos
-<br>
-<p align='center'>
-    <img src = 'img/performance_ml.png'>
-</p>
+![image](img/performance_ml.png)
 <br><br>
 
 ### 5.2. Performance real dos modelos - Cross Validation
-<br>
-<p align='center'>
-    <img src = 'img/performance_ml_cross_validation.png'>
-</p>
+![image](img/performance_ml_cross_validation.png)
 <br><br>
 
 ### 5.3. Performance de negócio
-<br>
-<p align='center'>
-    <img src = 'img/performance_business.png'>
-</p>
+![image](img/performance_business.png)
 <br><br>
 
 ## 6. Conclusão
