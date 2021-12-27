@@ -107,7 +107,7 @@ O projeto foi desenvolvido através do método CRISP-DM, aplicando os seguintes 
 ![image](img/performance_final.png)
 <br><br>
 
-### 5.3. Performance de negócio
+### 5.4. Performance de negócio
 ![image](img/performance_business.png)
 <br><br>
 
