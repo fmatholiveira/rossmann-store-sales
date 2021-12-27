@@ -103,6 +103,10 @@ O projeto foi desenvolvido através do método CRISP-DM, aplicando os seguintes 
 ![image](img/performance_ml_cross_validation.png)
 <br><br>
 
+### 5.3. Performance XGBoost - Final
+![image](img/performance_final.png)
+<br><br>
+
 ### 5.3. Performance de negócio
 ![image](img/performance_business.png)
 <br><br>
